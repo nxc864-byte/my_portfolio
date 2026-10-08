@@ -6,6 +6,7 @@ Analyzing Global Volcanic Hazards Data (1500–2026)
 **Author:** Nayonika Choudhury  
 **Course:** EVR 628 Intro to Data Mgmt. & Visualization for Environmental 
 Scientists 
+
 **Repository:** `my_portfolio`  
 
 ---
@@ -31,6 +32,8 @@ and high-impact spatial eruption distributions across the world.
 
 **Repository Structure**
 
+```r
+
 my_portfolio/
 ├── data/
 │   ├── raw/
@@ -49,4 +52,4 @@ my_portfolio/
 ├── my_portfolio.Rproj                          
 └── README.md               
 
-
+```
