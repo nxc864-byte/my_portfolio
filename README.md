@@ -61,15 +61,9 @@ My project examines global historical volcanic hazards (1500–2026) to analyze 
 my_portfolio/
 ├── data/
 │   ├── raw/
-<<<<<<< HEAD
 │   │   └── volcano.tsv                 
 │   └── processed/
 │       └── clean_volcanoes.rds                 
-=======
-│   │   └── volcano.tsv
-│   └── processed/
-│       └── clean_volcanoes.rds
->>>>>>> d65d19aefca465b67d0226ae4c20a42aa44a3cc8
 ├── results/
 │   └── img/
 │       ├── plot1_vei_vs_fatalities.png
@@ -79,14 +73,8 @@ my_portfolio/
 │   ├── 01_processing/
 │   │   └── data_processing.R
 │   └── 03_content/
-<<<<<<< HEAD
 │       └── exploratory_data_visualization.R                
-├── my_portfolio.Rproj                          
-└── README.md
-=======
-│       └── exploratory_data_visualization.R
 ├── my_portfolio.Rproj
 └── README.md            
->>>>>>> d65d19aefca465b67d0226ae4c20a42aa44a3cc8
 
 ```
