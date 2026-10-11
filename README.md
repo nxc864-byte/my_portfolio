@@ -37,7 +37,7 @@ and high-impact spatial eruption distributions across the world.
 my_portfolio/
 ├── data/
 │   ├── raw/
-│   │   └── volcanoes.tsv
+│   │   └── volcano.tsv
 │   └── processed/
 │       └── clean_volcanoes.rds
 ├── results/
