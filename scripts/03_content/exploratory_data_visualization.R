@@ -27,7 +27,7 @@ plot1 <- volcanoes %>%
                color = "black",
                width = 0.5) +
   
-  geom_jitter(width = 0.2,
+  geom_jitter(position = position_jitter(width = 0.15, seed = 42), #Change
               alpha = 0.5, 
               size = 1.6,
               shape = 21,
@@ -35,7 +35,7 @@ plot1 <- volcanoes %>%
               color = "black") +
   
   scale_y_log10(
-    labels = scales::comma,
+    labels = scales::label_comma(),
     breaks = 10^(0:5)) +
   
   scale_fill_brewer(name = "VEI Category",
@@ -69,7 +69,7 @@ plot1 <- volcanoes %>%
   guides(fill = guide_legend(title.position = "top", title.hjust = 0.5))
 
 ggsave(
-  filename = "data/output/plot1_vei_vs_fatalities.png", 
+  filename = "results/img/plot1_vei_vs_fatalities.png", 
   plot = plot1, 
   width = 8, 
   height = 6, 
@@ -128,7 +128,7 @@ plot2 <- volcanoes %>%
     panel.grid.major.y = element_blank()) 
 
 ggsave(
-  filename = "data/output/plot2_volcano_type_deaths.png", 
+  filename = "results/img/plot2_volcano_type_deaths.png", 
   plot = plot2, 
   width = 8.5, 
   height = 5.5, 
@@ -159,8 +159,8 @@ plot3 <- ggplot(data = map_volcanoes) +
   geom_polygon(
     data = world_map,
     aes(x = long, y = lat, group = group),
-    fill = "#E3EFF6",
-    color = "#222222",
+    fill = "#EAEAEA",
+    color = "#A0A0A0",
     linewidth = 0.2) +
   
   geom_point( 
