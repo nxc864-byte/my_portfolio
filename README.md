@@ -37,19 +37,20 @@ and high-impact spatial eruption distributions across the world.
 my_portfolio/
 ├── data/
 │   ├── raw/
-│   │   └── volcanoes.tsv                 
-│   ├── processed/
-│   │   └── clean_volcanoes.rds                 
-│   └── output/
+│   │   └── volcanoes.tsv
+│   └── processed/
+│       └── clean_volcanoes.rds
+├── results/
+│   └── img/
 │       ├── plot1_vei_vs_fatalities.png
 │       ├── plot2_volcano_type_deaths.png
-│       └── plot3_spatial_impact_map.png        
+│       └── plot3_spatial_impact_map.png
 ├── scripts/
 │   ├── 01_processing/
-│   │   └── data_processing.R                   
+│   │   └── data_processing.R
 │   └── 03_content/
-│       └── data_visualization.R                
-├── my_portfolio.Rproj                          
-└── README.md               
+│       └── exploratory_data_visualization.R
+├── my_portfolio.Rproj
+└── README.md            
 
 ```
