@@ -344,7 +344,7 @@ map_global <- ggplot() +
     lineheight = 0.95,
     fill = alpha("white", 0.95),
     color = "gray10",
-    label.size = 0.3,
+    linewidth = 0.3,
     label.padding = unit(0.2, "lines")
   ) +
   scale_size_area(
@@ -419,7 +419,7 @@ map_indo_pacific <- ggplot() +
     lineheight = 0.95,
     fill = alpha("white", 0.95),
     color = "gray10",
-    label.size = 0.3,
+    linewidth = 0.3,
     label.padding = unit(0.2, "lines")
   ) +
   scale_size_area(
@@ -476,6 +476,8 @@ fig2_spatial_multipanel <- plot_grid(
 )
 
 # EXPORT
+
+dir.create("results/img", recursive = TRUE, showWarnings = FALSE)
 
 # Export Fig. 1
 
