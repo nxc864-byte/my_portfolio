@@ -42,6 +42,6 @@ my_portfolio/
 │   │   └── data_processing.R
 │   └── 03_content/
 │       ├── exploratory_data_visualization.R
-│       └── data_visualization.R
+│       └── spatial_data_visualization.R
 ├── my_portfolio.Rproj
 └── README.md
